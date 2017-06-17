@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DSO"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\usr\;CMake Files\..\..\..\usr\local\;CMake Files\..\..\..\usr\local\lib\;CMake Files\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\usr\local\lib\cmake\Pangolin\;CMake Files\..\..\..\usr\share\;CMake Files\..\..\..\usr\share\OpenCV\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/sicong/dso/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sicong/dso/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sicong/dso/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sicong/dso/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sicong/dso/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/sicong/dso/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sicong/dso/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sicong/dso/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sicong/dso/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sicong/dso/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/sicong/dso/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sicong/dso/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sicong/dso/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sicong/dso/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sicong/dso/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dso_dataset">
+				<Option output="/home/sicong/dso/cmake-build-debug/bin/dso_dataset" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DENABLE_SSE"/>
+					<Add option="-DHAS_ZIPLIB=1"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/home/sicong/dso/src"/>
+					<Add directory="/home/sicong/dso/thirdparty/Sophus"/>
+					<Add directory="/home/sicong/dso/thirdparty/sse2neon"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/lib/cmake/Pangolin/../../../include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/opt/ros/indigo/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sicong/dso/cmake-build-debug/Makefile&quot;  VERBOSE=1 dso_dataset"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sicong/dso/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sicong/dso/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sicong/dso/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dso_dataset/fast">
+				<Option output="/home/sicong/dso/cmake-build-debug/bin/dso_dataset" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DENABLE_SSE"/>
+					<Add option="-DHAS_ZIPLIB=1"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/home/sicong/dso/src"/>
+					<Add directory="/home/sicong/dso/thirdparty/Sophus"/>
+					<Add directory="/home/sicong/dso/thirdparty/sse2neon"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/lib/cmake/Pangolin/../../../include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/opt/ros/indigo/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sicong/dso/cmake-build-debug/Makefile&quot;  VERBOSE=1 dso_dataset/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sicong/dso/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sicong/dso/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sicong/dso/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dso">
+				<Option output="/home/sicong/dso/cmake-build-debug/lib/libdso.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sicong/dso/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DENABLE_SSE"/>
+					<Add option="-DHAS_ZIPLIB=1"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/home/sicong/dso/src"/>
+					<Add directory="/home/sicong/dso/thirdparty/Sophus"/>
+					<Add directory="/home/sicong/dso/thirdparty/sse2neon"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/lib/cmake/Pangolin/../../../include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/opt/ros/indigo/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sicong/dso/cmake-build-debug/Makefile&quot;  VERBOSE=1 dso"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sicong/dso/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sicong/dso/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sicong/dso/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dso/fast">
+				<Option output="/home/sicong/dso/cmake-build-debug/lib/libdso.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sicong/dso/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DENABLE_SSE"/>
+					<Add option="-DHAS_ZIPLIB=1"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/home/sicong/dso/src"/>
+					<Add directory="/home/sicong/dso/thirdparty/Sophus"/>
+					<Add directory="/home/sicong/dso/thirdparty/sse2neon"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/lib/cmake/Pangolin/../../../include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/opt/ros/indigo/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sicong/dso/cmake-build-debug/Makefile&quot;  VERBOSE=1 dso/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sicong/dso/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sicong/dso/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sicong/dso/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/sicong/dso/src/FullSystem/CoarseInitializer.cpp">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/FullSystem/CoarseInitializer.h">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/FullSystem/CoarseTracker.cpp">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/FullSystem/CoarseTracker.h">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/FullSystem/FullSystem.cpp">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/FullSystem/FullSystem.h">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/FullSystem/FullSystemDebugStuff.cpp">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/FullSystem/FullSystemMarginalize.cpp">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/FullSystem/FullSystemOptPoint.cpp">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/FullSystem/FullSystemOptimize.cpp">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/FullSystem/HessianBlocks.cpp">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/FullSystem/HessianBlocks.h">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/FullSystem/ImmaturePoint.cpp">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/FullSystem/ImmaturePoint.h">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/FullSystem/PixelSelector2.cpp">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/FullSystem/PixelSelector2.h">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/FullSystem/Residuals.cpp">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/FullSystem/Residuals.h">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/IOWrapper/OpenCV/ImageDisplay_OpenCV.cpp">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/IOWrapper/OpenCV/ImageRW_OpenCV.cpp">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/IOWrapper/Pangolin/KeyFrameDisplay.cpp">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/IOWrapper/Pangolin/KeyFrameDisplay.h">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/IOWrapper/Pangolin/PangolinDSOViewer.cpp">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/IOWrapper/Pangolin/PangolinDSOViewer.h">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/OptimizationBackend/AccumulatedSCHessian.cpp">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/OptimizationBackend/AccumulatedSCHessian.h">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/OptimizationBackend/AccumulatedTopHessian.cpp">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/OptimizationBackend/AccumulatedTopHessian.h">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/OptimizationBackend/EnergyFunctional.cpp">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/OptimizationBackend/EnergyFunctional.h">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/OptimizationBackend/EnergyFunctionalStructs.cpp">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/OptimizationBackend/EnergyFunctionalStructs.h">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/main_dso_pangolin.cpp">
+			<Option target="dso_dataset"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/util/Undistort.cpp">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/util/Undistort.h">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/util/globalCalib.cpp">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/util/globalCalib.h">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/util/settings.cpp">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/src/util/settings.h">
+			<Option target="dso"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/cmake/FindSuiteParse.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/cmake/FindEigen3.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/cmake/FindLibZip.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/../../../usr/local/lib/cmake/Pangolin/PangolinConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/../../../usr/local/lib/cmake/Pangolin/PangolinConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/../../../usr/local/lib/cmake/Pangolin/PangolinTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/../../../usr/local/lib/cmake/Pangolin/PangolinTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/../../../usr/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/../../../usr/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/sicong/dso/../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

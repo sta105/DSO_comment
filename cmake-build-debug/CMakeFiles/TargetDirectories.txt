@@ -1,0 +1,4 @@
+/home/sicong/dso/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/sicong/dso/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sicong/dso/cmake-build-debug/CMakeFiles/dso_dataset.dir
+/home/sicong/dso/cmake-build-debug/CMakeFiles/dso.dir
