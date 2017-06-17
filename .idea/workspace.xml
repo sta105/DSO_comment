@@ -12,16 +12,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="befe670e-35eb-4010-a623-258a3abae8f5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FullSystem/CoarseTracker.cpp" afterPath="$PROJECT_DIR$/src/FullSystem/CoarseTracker.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FullSystem/FullSystem.cpp" afterPath="$PROJECT_DIR$/src/FullSystem/FullSystem.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FullSystem/HessianBlocks.cpp" afterPath="$PROJECT_DIR$/src/FullSystem/HessianBlocks.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FullSystem/HessianBlocks.h" afterPath="$PROJECT_DIR$/src/FullSystem/HessianBlocks.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FullSystem/ImmaturePoint.cpp" afterPath="$PROJECT_DIR$/src/FullSystem/ImmaturePoint.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main_dso_pangolin.cpp" afterPath="$PROJECT_DIR$/src/main_dso_pangolin.cpp" />
-    </list>
+    <list default="true" id="befe670e-35eb-4010-a623-258a3abae8f5" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/src/FullSystem/ImmaturePoint.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="410">
-              <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+              <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -107,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/src/IOWrapper/OutputWrapper/SampleOutputWrapper.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="15" column="64" lean-forward="true" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+              <caret line="15" column="64" lean-forward="false" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -563,12 +554,12 @@
       <option name="presentableId" value="Default" />
       <updated>1497396600075</updated>
       <workItem from="1497396602195" duration="58000" />
-      <workItem from="1497396743607" duration="50095000" />
+      <workItem from="1497396743607" duration="50693000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50153000" />
+    <option name="totallyTimeSpent" value="50751000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -798,7 +789,7 @@
     <entry file="file://$PROJECT_DIR$/src/IOWrapper/OutputWrapper/SampleOutputWrapper.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="15" column="64" lean-forward="true" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+          <caret line="15" column="64" lean-forward="false" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
           <folding />
         </state>
       </provider>
@@ -870,7 +861,7 @@
     <entry file="file://$PROJECT_DIR$/src/FullSystem/ImmaturePoint.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
-          <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
           <folding />
         </state>
       </provider>
